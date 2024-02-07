@@ -1,0 +1,69 @@
+* {
+  /*Nos permite incluir el relleno y el borde en el ancho y alto total de un elemento*/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Cabecera */
+.header {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(66, 65, 65);
+  color: white;
+}
+
+.header>img{
+  width: 5%;
+}
+
+/* Columna izquierda - Noticiario */
+.noticias {
+  float: left;
+  width: 75%;
+}
+
+/* Columna derecha - Resto */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Imagenes */
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Zona Noticias */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Espacio entre columnas izquierda y derecha */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Pie de Pagina */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  margin-top: 10px;
+}
+
+.footer>img{
+  width: 20%;
+}
